@@ -1,7 +1,7 @@
 Summary:	convert meta-languate to openttd's grf and/or nfo files
 Name:		nml
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications
 Source0:	http://bundles.openttdcoop.org/nml/releases/0.2.1/%{name}-%{version}.src.tar.gz
@@ -9,6 +9,7 @@ Source0:	http://bundles.openttdcoop.org/nml/releases/0.2.1/%{name}-%{version}.sr
 URL:		https://dev.openttdcoop.org/projects/nml
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.234
+Requires:	python-ply
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -36,3 +37,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
 %{py_sitescriptdir}/nml
+%{py_sitescriptdir}/nml-%{version}*.egg-info

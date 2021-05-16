@@ -32,8 +32,8 @@ newgrf coding easier.
 cp %{SOURCE1} %{SOURCE2} %{SOURCE3} regression
 
 %build
-%{__make}
-%{__make} extensions
+%{__make} -j1
+%{__make} -j1 extensions
 
 %install
 rm -rf $RPM_BUILD_ROOT

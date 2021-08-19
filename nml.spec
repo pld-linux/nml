@@ -1,11 +1,11 @@
 Summary:	convert meta-languate to openttd's grf and/or nfo files
 Name:		nml
-Version:	0.5.3
+Version:	0.6.0
 Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	https://github.com/OpenTTD/nml/releases/download/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	0c2010b53f864f74d0a8b36bc40c7e84
+# Source0-md5:	6d7e21b96e8ae3cf4e469d584abad861
 Source1:	https://github.com/OpenTTD/nml/raw/07c5a4de27fec1383d2657aa51a092b1d2c658fe/regression/arctic_railwagons.pcx
 # Source1-md5:	bc911035b624da91088dd6377622ee5b
 Source2:	https://github.com/OpenTTD/nml/raw/07c5a4de27fec1383d2657aa51a092b1d2c658fe/regression/opengfx_generic_trams1.pcx

@@ -1,11 +1,11 @@
 Summary:	convert meta-languate to openttd's grf and/or nfo files
 Name:		nml
-Version:	0.7.5
+Version:	0.7.6
 Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	https://github.com/OpenTTD/nml/releases/download/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	d21154170e67afaddd78b2ef58419f35
+# Source0-md5:	fd26c9d416f3ceaa481fa293c190520b
 URL:		https://dev.openttdcoop.org/projects/nml
 BuildRequires:	python3-pillow
 BuildRequires:	python3-ply

@@ -1,4 +1,5 @@
-Summary:	convert meta-languate to openttd's grf and/or nfo files
+Summary:	Convert meta-language to openttd's grf and/or nfo files
+Summary(pl.UTF-8):	Konwersja meta-języka do plików grf i/lub nfo dla openttd
 Name:		nml
 Version:	0.7.6
 Release:	3
@@ -21,6 +22,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A tool to convert a meta-language to grf and/or nfo files, making
 newgrf coding easier.
 
+%description -l pl.UTF_8
+Narzędzie do konwersji meta-języka do plików grf i/lub nfo, dzięki
+czemu kodowanie newgrf staje się prostsze.
+
 %prep
 %setup -q
 
@@ -36,6 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 	--optimize=2 \
 	--prefix=%{_prefix} \
 	--root=$RPM_BUILD_ROOT
+
 install -D docs/nmlc.1 $RPM_BUILD_ROOT%{_mandir}/man1/nmlc.1
 
 # The actual python code is not being installed?!?

@@ -37,7 +37,7 @@ czemu kodowanie newgrf staje się prostsze.
 
 %if %{with tests}
 PYTHONPATH=$(echo $(pwd)/build-3/lib.*) \
-%{__make} -C regression
+%{__make} -C regression -j1
 %endif
 
 %install

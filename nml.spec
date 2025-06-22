@@ -5,12 +5,12 @@
 Summary:	Convert meta-language to openttd's grf and/or nfo files
 Summary(pl.UTF-8):	Konwersja meta-języka do plików grf i/lub nfo dla openttd
 Name:		nml
-Version:	0.7.6
-Release:	4
+Version:	0.8.0
+Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	https://github.com/OpenTTD/nml/releases/download/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	fd26c9d416f3ceaa481fa293c190520b
+# Source0-md5:	696703f4d2e9d9f790bd0edeac4cb2c4
 URL:		https://dev.openttdcoop.org/projects/nml
 BuildRequires:	python3-modules >= 1:3.5
 BuildRequires:	python3-pillow >= 3.4
